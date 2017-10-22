@@ -8,7 +8,7 @@ public class Kugelerst : MonoBehaviour {
     public float v=1;
     private int count = 0;
     // Use this for initialization
-    //erstellt eine Kugel auf einer bestimmten Position mit den Eigenschaften eines festen Körpers also Kollider, rigitbody etc.
+    //erstellt eine Kugel 
     //nur für den einen Spieler
     void Start () {
        
@@ -16,11 +16,7 @@ public class Kugelerst : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (count == 4)
-        {
-            
-        }
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.Space) && count < 4)
         {
             count++;
             werfenderkugel();
