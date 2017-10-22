@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571385, b: 0.30692253, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 313431415}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &313431417
 Behaviour:
   m_ObjectHideFlags: 0
@@ -300,8 +300,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112b1a33368b3ce41be3d537045d2da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  KugelReibung: 1
   bocciakugel: {fileID: 1934190130556240, guid: 2eead81490139864bbb7cc71a200d1c7,
     type: 2}
+  KugelFarbe: {fileID: 2100000, guid: 6b4791e20eb59614db67cf3d4c1c3868, type: 2}
+  KugelFarbeG: {fileID: 2100000, guid: 1c5a27b67f2bb574aa0c3dedb777169c, type: 2}
+  rend: {fileID: 0}
+  forceG: {x: 0, y: 0, z: 0}
+  timeCount: 0
   v: 1400
 --- !u!1001 &495300594
 Prefab:
@@ -541,8 +547,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112b1a33368b3ce41be3d537045d2da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  KugelReibung: 1
   bocciakugel: {fileID: 1934190130556240, guid: 2eead81490139864bbb7cc71a200d1c7,
     type: 2}
+  KugelFarbe: {fileID: 2100000, guid: 6b4791e20eb59614db67cf3d4c1c3868, type: 2}
+  KugelFarbeG: {fileID: 0}
+  rend: {fileID: 0}
+  forceG: {x: 0, y: 0, z: 0}
+  timeCount: 0
   v: 200
 --- !u!1 &947606598
 GameObject:
